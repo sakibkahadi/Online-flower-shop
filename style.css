@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Lato', sans-serif;   
+    font-family: 'Lato', sans-serif;
 }
 header{
     background-color: rgba(229, 84, 115, 0.10);
@@ -19,21 +19,24 @@ header{
 }
 .banner-content{
     max-width: 500px;
-    border: 1px solid red;
+    
 }
 .banner-title{
     color: #272727;
-    font-size: 55px;
+    font-size: 67px;
+    width: 600px;
     font-weight: 900;
-    border: 1px solid rebeccapurple;
+    
 }
 .banner-description{
     color: rgba(39, 39, 39, .60);
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 430px;
-    border: 1px solid blue;
+    width: 550px;
+    
+    line-height: 23px;
+    
 }
 .btn-primary{
     background-color: #e55473;
@@ -45,4 +48,61 @@ header{
     font-weight: 200px;
     font-size: 15px;
     font-family: sans-serif;
+}
+.featured-container{
+    text-align: center;
+    padding: 1px;
+    max-width: 500px;
+    width: 50%;
+    margin: auto;
+}
+.featured-container-title{
+    margin-top: 100px;
+  
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.featured-container-description{
+    
+    color: rgba(39, 39, 39, .60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;  
+}
+.featured-container-images{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.featured-flower{
+    border: 1px solid rebeccapurple;
+    border-radius: 300px 300px 0px 0px;
+    
+    
+}
+.bg-image1{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.bg-image2{
+    background-color: rgba(5, 151, 160, .15);
+}
+.bg-image3{
+    background-color: rgba(71, 125, 17, .15);
+}
+.image1{
+    margin: 110px 78px 0px 76px;
+    border: 1px solid rebeccapurple;
+    margin-bottom: -6px;
+}
+.image2{
+    margin: 117px 47px 45px 47px;
+    border: 1px solid rebeccapurple;
+}
+.image3{
+    margin: 67px 75px 0px 75px;
+    border: 1px solid red;
+    margin-bottom: -6px;
 }
