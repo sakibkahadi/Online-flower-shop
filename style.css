@@ -49,12 +49,17 @@ header{
     font-size: 15px;
     font-family: sans-serif;
 }
+/*featured flower*/
+.features{
+    background-color:white;
+}
 .featured-container{
     text-align: center;
     padding: 1px;
     max-width: 500px;
     width: 50%;
     margin: auto;
+    padding-bottom: 50px;
 }
 .featured-container-title{
     margin-top: 100px;
@@ -73,15 +78,15 @@ header{
 }
 .featured-container-images{
     display: flex;
-    justify-content: space-around;
-   
+    justify-content: center;
+    gap: 30px;
+    border: 1px saddlebrown sol;
     
 }
 .featured-flower{
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid firebrick; */
     border-radius: 300px 300px 0px 0px;
-    
-    
+   
 }
 .bg-image1{
     background-color: rgba(167, 33, 98, 0.15);
@@ -94,15 +99,52 @@ header{
 }
 .image1{
     margin: 110px 78px 0px 76px;
-    border: 1px solid rebeccapurple;
-    margin-bottom: -6px;
+    /* border: 1px solid rebeccapurple; */
+    margin-bottom: -3px;
 }
 .image2{
     margin: 117px 47px 45px 47px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
+    margin-bottom: 48px;
 }
 .image3{
     margin: 67px 75px 0px 75px;
-    border: 1px solid red;
-    margin-bottom: -6px;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    margin-bottom: -3px;
+}
+.flower-name{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/*hot deal*/
+.hot-deal-container{
+    display: flex;
+    justify-content:center;
+    gap: 215px;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+.hot-deal-container-image{
+    padding-top: 100px;
+}
+.hot-deal-container-banner{
+    text-align: center;
+}
+.hot-deal-container-banner-title{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    padding-top: 140px;
+    
+}
+.hot-deal-container-banner-description{
+    color: rgba(39, 39, 39, .60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 15px;
 }
